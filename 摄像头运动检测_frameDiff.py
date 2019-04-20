@@ -67,8 +67,8 @@ def logIn():
 
 def main():
     logIn()
-#    url="rtsp://admin:lyp82ndlf@153l674e38.imwork.net:16149/Streaming/Channels/1"
-    url="rtsp://admin:lyp82ndlf@192.168.0.163:91/Streaming/Channels/1"
+
+    url = 'rtsp://admin:XXXX@(IP)/Streaming/Channels/1'
     cap=cv2.VideoCapture(url)
     if(cap.isOpened()): #视频打开成功
         flag = 1
