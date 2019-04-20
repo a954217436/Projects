@@ -10,8 +10,7 @@ Created on Wed Mar 13 16:28:48 2019
 import cv2
 import datetime
 
-
-url="rtsp://admin:lyp82ndlf@153l674e38.imwork.net:16149/Streaming/Channels/1"
+url = 'rtsp://admin:XXXX@(IP)/Streaming/Channels/1'
  
 cap=cv2.VideoCapture(url)
 #cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
