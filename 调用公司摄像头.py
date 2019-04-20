@@ -7,12 +7,7 @@ Created on Wed Mar 13 15:05:54 2019
 import cv2
 import datetime
 
-#url = 'rtsp://admin:lyp82ndlf@192.168.0.163:91/Streaming/Channels/1'
-url = 'rtsp://admin:lyp82ndlf@153l674e38.imwork.net:16149/Streaming/Channels/1'
-
-#url = 'rtsp://218.204.223.237:554/live/1/66251FC11353191F/e7ooqwcfbqjoo80j.sdp'
-
-url2 = 'rtsp://admin:admin123456@192.168.0.167:554/Streaming/Channels/1'
+url = 'rtsp://admin:XXXX@(IP)/Streaming/Channels/1'
 
 cap = cv2.VideoCapture(url)
 #cap2 = cv2.VideoCapture(url2)
